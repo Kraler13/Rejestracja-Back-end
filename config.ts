@@ -5,7 +5,7 @@ export const config = {
 
     db: {
         host: 'localhost',
-        posrt: 27017,
+        port: 27017,
         name: 'Rejestracja',
         password: ''
     }
