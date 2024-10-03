@@ -13,3 +13,15 @@ export interface Event {
 export interface EventsResponse {
     events: Event[];
 }
+
+export interface IEvent extends Document {
+    name: string;
+    event: {
+      key: string;
+      val: string;
+    };
+    city: {
+      key: string;
+      val: string;
+    };
+  }
